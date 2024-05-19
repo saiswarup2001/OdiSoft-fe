@@ -8,8 +8,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export const Detail = () => {
-  // const APIKEY = import.meta.env.VITE_API_KEY;
-  const APIKEY = "1180d6b2cba61ab737e67a4ff9e3cdb3";
+  const APIKEY = import.meta.env.VITE_API_KEY;
 
   const { loader, setLoader } = useContext(Contextpage);
 
